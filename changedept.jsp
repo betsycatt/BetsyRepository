@@ -8,6 +8,8 @@ if(request.getParameter("department") != null){ prpUpdateDept__newdept = (String
 String prpUpdateDept__userid = null;
 if(session.getAttribute("MM_Username") != null){ prpUpdateDept__userid = (String)session.getAttribute("MM_Username");}
 
+
+
 %>
 <%
 Driver DriverprpUpdateDept = (Driver)Class.forName(MM_IDBGIS05_SUPPORT_DRIVER).newInstance();
